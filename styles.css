@@ -1,0 +1,148 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text for contrast */
+    box-sizing: border-box;
+}
+
+/* Header menu styles */
+header {
+    position: absolute; /* Make the header float on top of the page */
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: transparent; /* Transparent background */
+    z-index: 100; /* Ensure it stays above other elements */
+    color: #fff; /* White text for visibility */
+    padding: 20px; /* Padding for spacing */
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #ffffff; /* White menu text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: #00c0ff; /* Hover effect for the menu */
+}
+
+/* Hero section with background image */
+.hero {
+    background-image: url('fondo.jpg'); /* Make sure to use the correct image name */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;  /* 50% of the window height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #00c0ff; /* Elegant bottom line */
+    position: relative; /* To ensure elements inside can be positioned properly */
+}
+
+.hero-button {
+    padding: 15px 30px;
+    background-color: #00c0ff;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #007acc;
+}
+
+/* Content section with three columns */
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+/* Column styles */
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%; /* Equal width for each column */
+}
+
+/* Box styles */
+.box {
+    background-color: #1e1e1e; /* Elegant dark background for the boxes */
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow for elegance */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.box h2, .box h3 {
+    color: #00c0ff; /* Elegant color for the titles */
+}
+
+.box p {
+    color: #cccccc; /* Slightly lighter text */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Adjust the description box with more height */
+#description {
+    height: auto; /* Dynamic height according to the content */
+    text-align: left; /* Left-align the text */
+    font-size: 16px; /* Adjust font size for readability */
+    background-color: #222; /* Slightly different background to stand out */
+}
+
+/* Contact section */
+.contact-section {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 2px solid #00c0ff; /* Elegant top border */
+}
+
+.contact-section h2 {
+    color: #00c0ff;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+
+
